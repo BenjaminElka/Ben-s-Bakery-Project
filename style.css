@@ -1,0 +1,253 @@
+/**/
+body {
+  background-color: white;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    direction: rtl;
+}
+
+form {
+  font-size: 16px;
+  border: 90px;
+}
+.Main_Menu {
+  height: 62px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  position: sticky;
+  background: white;
+  padding-left: 24px;
+  -moz-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  padding: 8px;
+}
+.Main_Menu > a {
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+}
+.header {
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: lightgrey;
+  padding: 80px 24px;
+  direction: rtl;
+}
+.leftArea {
+  flex: 1;
+  order: 1;
+}
+.rightArea {
+  flex: 1;
+  order: 3;
+}
+.headers_title {
+  flex: 2;
+  order: 2;
+  text-align: center;
+}
+h1,
+p {
+  color: black;
+  text-decoration: solid;
+  text-align: right;
+}
+.Header_Titletext {
+  font-size: 20px;
+  margin-top: 10px;
+  padding-top: 30px;
+}
+#buttonContactUs > a {
+  width: 12px;
+  height: 15px;
+  position: right;
+  display: flex;
+  gap: 8px;
+}
+#buttonContactUs2 {
+  position: fixed;
+  z-index: 5;
+  top: 120px;
+  right: 25px;
+  font-size: 25px;
+}
+.aboutBakery {
+  display: flex;
+  padding: 10px;
+}
+.aboutBakeryText {
+  display: flex 1;
+}
+
+.aboutpic1 {
+  display: flex 2;
+  position: left;
+}
+.gallery_Area {
+  display: flex;
+  
+}
+.gallery_Picturespage {
+  display: flex;
+  gap: 8px;
+  width: 100%;
+}
+
+.gallery_Picturespage > .pic_1 {
+  flex: 1;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.gallery_Picturespage > .pic_2 {
+  flex: 1;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.gallery_Picturespage > .pic_3 {
+  flex: 1;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.gallery_Picturespage > div > img {
+  width: 100%;
+  height: 100%;
+  
+}
+
+.Menu_Card1 {
+  display: flex;
+  border: 50px;
+  padding: 50px;
+  width: 300px;
+  margin: 10px;
+}
+
+#Menu-2 {
+  font-size: 35px;
+  text-align: center;
+  text-decoration: solid;
+}
+
+.contact-us-button-img {
+  width: 20px;
+}
+
+.buttonContactus {
+  gap: 8px;
+  position: sticky;
+  top: 60px;
+  background-color: white;
+  border: 1px solid lightslategray;
+  padding: 0 24px;
+}
+
+.aboutBakery {
+  display: flex;
+  align-content: center;
+  flex-wrap: nowrap;
+  background-color: lightgrey;
+}
+button {
+  background-color: white; /* Green */
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.buttonGallery{
+  background-color: lightslategray;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+ 
+
+}
+.gallery_Area{
+  background-color: bisque;
+ display: flex;
+ margin-top: 24px;
+ padding: 10px;
+ 
+
+}
+.Order  {
+   
+  align-content: none;
+  flex-wrap: nowrap;
+  background-color: lightgray;
+  flex-direction: row-reverse;
+  margin: 10px;
+  padding: 10px;
+  text-align: right;
+}
+form{
+  direction: rtl;
+  display: block;
+}
+.footer {
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: lightgrey;
+  padding: 80px 24px;
+  direction: rtl;
+}
+.leftArea {
+  flex: 1;
+  order: 1;
+}
+.rightArea {
+  flex: 1;
+  order: 3;
+}
+/* bakerypage*/
+.about{
+  background-color: beige;
+}
+
+
+/* Gallery Page */
+
+.gallery-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 12px;
+  padding: 24px;
+}
+
+.gallery-menu > .gallery-menu-row {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.gallery-menu > .gallery-menu-row > .gallery-menu-item {
+  flex: 1;
+}
+
+.gallery-menu > .gallery-menu-row > .gallery-menu-item > img {
+  width: 100%;
+  height: 100%;
+}
